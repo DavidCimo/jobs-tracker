@@ -1,0 +1,19 @@
+# Allowlist: only the app, schema and local DB setup are shared.
+# Everything else here (CVs, cover letters, briefs, SKILL.md, seed data, keys) stays local.
+/*
+!/.gitignore
+!/README.md
+!/docker-compose.yml
+!/app/
+!/db/
+!/supabase/
+/supabase/*
+!/supabase/migrations/
+
+# Build output, deps and secrets
+node_modules/
+dist/
+dist-ssr/
+.env
+.env.*
+!.env.example
