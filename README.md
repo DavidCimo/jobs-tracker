@@ -61,6 +61,9 @@ Any script or agent can add jobs through the API:
 On Supabase the API base is `https://<ref>.supabase.co/rest/v1`.
 Locally it is `http://localhost:3000`.
 
+`SKILL.example.md` is a template for a scheduled Claude skill that does this.
+Copy it to `SKILL.md` (gitignored) and fill in the placeholders.
+
 ## Security
 
 No auth. The `anon` role has full access.

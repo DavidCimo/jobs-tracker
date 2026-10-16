@@ -4,6 +4,7 @@
 !/.gitignore
 !/README.md
 !/docker-compose.yml
+!/SKILL.example.md
 !/app/
 !/db/
 !/supabase/
